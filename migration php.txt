@@ -1,0 +1,28 @@
+php artisan make:model <model-name> -m ->to create the model and migration
+php artisan migrate ->to run the migration
+php artisan migrate:rollback
+<!-- <h1 style="text-align: center;">Todo application</h1>
+    <p>{{$header}}</p> -->
+    <!-- this is the method using php -->
+
+        <!-- // foreach($todolist as $value){
+        //     echo $value;
+        // } -->
+    <!-- another way to do it with the use of blade -->
+    <!-- <ul>
+        @foreach($todolist as $value)
+        <li>{{$value}}</li>    
+        @endforeach
+    </ul> -->
+    <!-- this is route -->
+    <!-- Route::get('/', function () {
+    return view('welcome', [
+        'header'=>'this is test',
+        'todolist'=>['test1', 'test2']
+    ]);
+}); -->
+php artisan make:controller <controller_name>
+php artisan mkae:factory UserFactory --model=User //to make factories with the help of the usermodel
+php artisan migrate:fresh --seed // to run in the database seeder
+git clone garesi yo code  halnu paryo terminal ma 
+	composer install

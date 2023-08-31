@@ -1,0 +1,15 @@
+gitlens
+git history
+format html in php
+live server
+live share
+material icon theme
+mocha text explorer
+night owl
+path intellisense
+power mode
+prettier
+rainbow brackets
+svg preview
+vscode-pets
+auto import

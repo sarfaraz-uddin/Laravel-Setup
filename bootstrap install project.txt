@@ -1,0 +1,19 @@
+//run this code in powershell
+composer require laravel/ui
+php artisan ui bootstrap
+node -v
+npm install
+npm run build
+//do this in the project of visual stdio code
+copy the code to vite.config.js 
+	resolve: { alias: { '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'), } },
+Add a path
+	import path from "path";
+Import a line in ur main folder app.blade.php
+	@vite(['resources/js/app.js'])
+keep a code in app.js
+	import "../sass/app.scss";
+//run this code on powershell
+Also check, if the bootstrap is not running then write
+	npm run dev
+ php artisan storage:link //make a copy of an image on public/storage.
